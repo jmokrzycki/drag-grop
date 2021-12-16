@@ -1,0 +1,37 @@
+{
+    "tiles": [
+        {
+            "type": "1",
+            "item": {
+                "top": "100px",
+                "left": "100px"
+            },
+            "dropzone": {
+                "top": "600px",
+                "left": "100px"
+            }
+        },
+        {
+            "type": "2",
+            "item": {
+                "top": "250px",
+                "left": "100px"
+            },
+            "dropzone": {
+                "top": "600px",
+                "left": "100px"
+            }
+        },
+        {
+            "type": "3",
+            "item": {
+                "top": "400px",
+                "left": "100px"
+            },
+            "dropzone": {
+                "top": "600px",
+                "left": "500px"
+            }
+        },
+    ]
+}

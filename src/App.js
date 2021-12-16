@@ -1,5 +1,6 @@
 import './App.css';
 import interact from 'interactjs';
+import settings from './settings.json';
 
 interact('.item')
   .draggable({
@@ -63,6 +64,10 @@ interact('.item')
       item.classList.add('cannot-drop')
     }
   })
+
+  // const settingsParsed = JSON.parse(settings);
+
+
 
 function App() {
   return (
