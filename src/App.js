@@ -67,25 +67,28 @@ interact('.item')
 function App() {
   return (
     <div className="App">
+      <div className='game-wrapper'>
 
-      <h1 className="title">Poznajemy warstwy lasu</h1>
+        <h1 className="title">---</h1>
 
-      <div className="board" />
+        <div className="board" />
 
-      <div className='item' type='1' style={{ left: '100px', top: '100px' }}>I'm an item 1</div>
-      <div className='item' type='2' style={{ left: '100px', top: '250px' }}>I'm an item 2</div>
-      <div className='item' type='3' style={{ left: '100px', top: '400px' }}>I'm an item 3</div>
+        <div className='item' type='1' style={{ left: '100px', top: '100px' }}>I'm an item 1</div>
+        <div className='item' type='2' style={{ left: '100px', top: '250px' }}>I'm an item 2</div>
+        <div className='item' type='3' style={{ left: '100px', top: '400px' }}>I'm an item 3</div>
 
-      <div className="dropzone" type='1' style={{ left: '100px', top: '600px' }}>
-        <h3>Dropzone 1</h3>
-      </div>
+        <div className="dropzone" type='1' style={{ left: '100px', top: '600px' }}>
+          <h3>Dropzone 1</h3>
+        </div>
 
-      <div className="dropzone" type='2' style={{ left: '300px', top: '600px' }}>
-        <h3>Dropzone 2 </h3>
-      </div>
+        <div className="dropzone" type='2' style={{ left: '300px', top: '600px' }}>
+          <h3>Dropzone 2 </h3>
+        </div>
 
-      <div className="dropzone" type='3' style={{ left: '500px', top: '600px' }}>
-        <h3>Dropzone3</h3>
+        <div className="dropzone" type='3' style={{ left: '500px', top: '600px' }}>
+          <h3>Dropzone3</h3>
+        </div>
+      
       </div>
     </div>
   );
